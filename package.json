@@ -1,6 +1,6 @@
 {
     "title": "Max VeRost Portfolio",
-    "name": "Max VeRost Portfolio",
+    "name": "max-verost-portfolio",
     "version": "5.0.6",
     "scripts": {
         "start": "gulp watch"
