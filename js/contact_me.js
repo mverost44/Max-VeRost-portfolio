@@ -23,10 +23,12 @@ $(function() {
         url: "https://cryptic-plains-29344.herokuapp.com/messages",
         type: "POST",
         data: {
-          name: name,
-          phone: phone,
-          email: email,
-          message: message
+          message: {
+            name: name,
+            phone: phone,
+            email: email,
+            message: message
+          }
         },
         cache: false,
         success: function() {
