@@ -221,6 +221,13 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+#about img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+  border-radius: 20px;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
